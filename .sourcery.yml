@@ -1,0 +1,8 @@
+
+sources:
+  - ./SwiftUIPathRouter/App
+templates:
+  - ./Template
+output:
+  path: "./SwiftUIPathRouter/AutoGenerate"
+  format: "swift"
