@@ -71,7 +71,7 @@ Button {
 ## Authors
 * **Mellong Lau**  [Blog](https://blog.xioayee.top/)
 
-You can also check out the app which is using this router solution: [Accent Lane](https://apps.apple.com/us/app/accent-lane/id6480443984)
+Check out the app which is using this router solution: [Accent Lane](https://apps.apple.com/us/app/accent-lane/id6480443984)
 
 ## Love our work?
 Hit the star 🌟 button! It helps! ❤️
