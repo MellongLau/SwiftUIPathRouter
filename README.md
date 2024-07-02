@@ -8,8 +8,8 @@ SwiftUIPathRouter is a navigation router solution for SwiftUI
    
     `pod 'Sourcery'`
 
-   Then turn off the build option "User Script Sandboxing" if you get the relate error.
-   Add run script to "Build Phases": `$PODS_ROOT/Sourcery/bin/sourcery --config .sourcery.yml`, it should be above the Compile Sources section.
+   Then turn off the build option `User Script Sandboxing` if you get the relate error.
+   Add run script to `Build Phases`: `$PODS_ROOT/Sourcery/bin/sourcery --config .sourcery.yml`, it should be above the `Compile Sources` section.
 4. Copy `Template` folder and sourcery config file `.sourcery.yml` to your project.
 5. Update `.sourcery.yml` setting to match your preject structure.
 6. Copy `Router` folder to your project.
@@ -18,7 +18,6 @@ SwiftUIPathRouter is a navigation router solution for SwiftUI
 // sourcery: route
 struct LoginView: View {
     @ObservedObject var router: Router
-    
     
     var body: some View {
         VStack(spacing: 20) {
@@ -68,6 +67,7 @@ Button {
     Text("Sheet")
 }
 ```
+
 ## Authors
 * **Mellong Lau**  [Blog](https://blog.xioayee.top/)
 
