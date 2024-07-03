@@ -1,4 +1,4 @@
-# SwiftUIRouter
+# SwiftUIPathRouter
 SwiftUIPathRouter is a navigation router solution for SwiftUI
 
 ## Usage
